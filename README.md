@@ -17,6 +17,16 @@ npm install -g sequelize-cli
 ### Revertir una migración
 `sequelize db:migrate:undo`
 
+### Seeds
+[Link](https://sequelize.org/docs/v6/other-topics/migrations/#creating-the-first-seed)
+
+Generar seeds `sequelize seed:generate --name generate_tasks`
+
+Ejecutar los seeds `sequelize db:seed:all`
+
+Deshacer el último seed `sequelize db:seed:undo`
+
+
 ### Instalación de Pug
 `npm install pug`
 
