@@ -1,6 +1,6 @@
 {
   "development": {
-    "username": "null",
+    "username": null,
     "password": null,
     "database": "proyecto-backend",
     "host": "127.0.0.1",
